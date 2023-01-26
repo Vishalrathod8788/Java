@@ -4,11 +4,11 @@ public class OverLoading
 {
 
 	int a,b;
-	public int sum(int a, int b)
+	public int plush(int a, int b)
 	{
 		return a+b;
 	}
-	public double sum(double a, double b)
+	public double plush(double a, double b)
 	{
 		return a+b;
 	}
