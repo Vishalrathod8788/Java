@@ -7,6 +7,8 @@ public class Static_variable_method
 	
 	public static int sum(int a, int b)
 	{
+		System.out.println(x);
+		System.out.println(y);
 		x = a;
 		y = b;
 		System.out.println("Sum Of " + (x + y));
