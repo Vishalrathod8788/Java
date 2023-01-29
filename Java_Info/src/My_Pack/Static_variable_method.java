@@ -16,7 +16,9 @@ public class Static_variable_method
 	public static void main(String[] args) 
 	{
 		sum(30, 40);
-		
+		System.out.println(x);
+		System.out.println(y);
+		System.out.println("Total"+ (x + y));
 	}
 
 }
