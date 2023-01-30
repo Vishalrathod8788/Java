@@ -57,6 +57,18 @@ public class MultiLeval
 				System.out.println("Enter Student Mark 3 : ");
 				m3 = sc.nextInt();
 				avrg =( m1 + m2 + m3 ) / 3;
+				if(avrg <= 70 && 79 >= avrg)
+				{
+					System.out.println(name + "Achive C Grade ");
+				}
+				else if(avrg <= 80 && 89 >= avrg)
+				{
+					System.out.println(name + "Achive B Grade ");
+				}
+				else if(avrg <= 90 && 100 >= avrg)
+				{
+					System.out.println(name + "Achive A Grade ");
+				}
 				System.out.println(name + "Avereges is "+ avrg);
 			}
 		}
