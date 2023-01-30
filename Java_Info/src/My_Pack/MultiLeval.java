@@ -32,7 +32,33 @@ public class MultiLeval
 		
 		void Display()
 		{
-			
+			System.out.println("Enter Nuber Of Student : ");
+			int x = sc.nextInt();
+			for(int i=1; i<=x; i++)
+			{
+				System.out.println("Enter Student Name : ");
+				name = sc.nextLine();
+				System.out.println("Enter Student Birth Date : ");
+				bdate = sc.nextLine();
+				System.out.println("Enter Student Gender : ");
+				gender = sc.nextBoolean();
+				System.out.println("Enter Student Course : ");
+				course = sc.nextLine();
+				System.out.println("Enter Student Collage : ");
+				collage = sc.nextLine();
+				System.out.println("Enter Student University : ");
+				university = sc.nextLine();
+				System.out.println("Enter Student Semester : ");
+				sem = sc.nextInt();
+				System.out.println("Enter Student Mark 1 : ");
+				m1 = sc.nextInt();
+				System.out.println("Enter Student Mark 2 : ");
+				m2 = sc.nextInt();
+				System.out.println("Enter Student Mark 3 : ");
+				m3 = sc.nextInt();
+				avrg =( m1 + m2 + m3 ) / 3;
+				System.out.println(name + "Avereges is "+ avrg);
+			}
 		}
 	}
 	
