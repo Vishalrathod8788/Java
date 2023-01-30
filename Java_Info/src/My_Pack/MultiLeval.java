@@ -31,47 +31,64 @@ public class MultiLeval
 		int sem, m1, m2, m3;
 		float avrg;
 		
-		void Display()
+		void input()
 		{
 			System.out.println("Enter Nuber Of Student : ");
 			x = sc.nextInt();
 			for(int i=1; i<=x; i++)
 			{
-				System.out.println("Enter Student Name : ");
+				//System.out.println(" ");
+				System.out.print("Enter Student Name : ");
 				name = sc.nextLine();
-				System.out.println("Enter Student Birth Date : ");
+				System.out.print("Enter Student Birth Date : ");
 				bdate = sc.nextLine();
-				System.out.println("Enter Student Gender : ");
+				System.out.println("Enter Student Gender (boolean Type true is Male And flase is Female): ");
 				gender = sc.nextBoolean();
-				System.out.println("Enter Student Course : ");
+				System.out.print("Enter Student Course : ");
 				course = sc.nextLine();
-				System.out.println("Enter Student Collage : ");
+				System.out.print("Enter Student Collage : ");
 				collage = sc.nextLine();
-				System.out.println("Enter Student University : ");
+				System.out.print("Enter Student University : ");
 				university = sc.nextLine();
-				System.out.println("Enter Student Semester : ");
+				System.out.print("Enter Student Semester : ");
 				sem = sc.nextInt();
-				System.out.println("Enter Student Mark 1 : ");
+				System.out.print("Enter Student Mark 1 : ");
 				m1 = sc.nextInt();
-				System.out.println("Enter Student Mark 2 : ");
+				System.out.print("Enter Student Mark 2 : ");
 				m2 = sc.nextInt();
-				System.out.println("Enter Student Mark 3 : ");
+				System.out.print("Enter Student Mark 3 : ");
 				m3 = sc.nextInt();
 				avrg =( m1 + m2 + m3 ) / 3;
-				if(avrg <= 70 && 79 >= avrg)
-				{
-					System.out.println(name + "Achive C Grade ");
-				}
-				else if(avrg <= 80 && 89 >= avrg)
-				{
-					System.out.println(name + "Achive B Grade ");
-				}
-				else if(avrg <= 90 && 100 >= avrg)
-				{
-					System.out.println(name + "Achive A Grade ");
-				}
-				System.out.println(name + "Avereges is "+ avrg);
+			}	
+			
+		}
+		void Display()
+		{
+			System.out.print("Student Name : " + name);
+			System.out.print("Student Burth Date : " + bdate);		
+			if(gender == true)
+			{
+				System.out.println("Male");
 			}
+			else
+			{
+				System.out.println("Female");
+			}
+			System.out.print("Student Gender : " + gender);
+			
+			if(avrg <= 70 && 79 >= avrg)
+			{
+				System.out.println(name + "Achive C Grade ");
+			}
+			else if(avrg <= 80 && 89 >= avrg)
+			{
+				System.out.println(name + "Achive B Grade ");
+			}
+			else if(avrg <= 90 && 100 >= avrg)
+			{
+				System.out.println(name + "Achive A Grade ");
+			}
+			System.out.println(name + "Avereges is "+ avrg);
 		}
 	}
 	
@@ -79,6 +96,7 @@ public class MultiLeval
 	{
 		MultiLeval m1 = new MultiLeval();
 		MultiLeval.Mark obj = m1.new Mark();
+		obj.input();
 		obj.Display();
 	}
 }
