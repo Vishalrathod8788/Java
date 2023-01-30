@@ -37,12 +37,11 @@ public class MultiLeval
 			x = sc.nextInt();
 			for(int i=1; i<=x; i++)
 			{
-				//System.out.println(" ");
 				System.out.print("Enter Student Name : ");
 				name = sc.nextLine();
 				System.out.print("Enter Student Birth Date : ");
 				bdate = sc.nextLine();
-				System.out.println("Enter Student Gender (boolean Type true is Male And flase is Female): ");
+				System.out.println("Enter Student Gender (boolean Type true is Male And false is Female): ");
 				gender = sc.nextBoolean();
 				System.out.print("Enter Student Course : ");
 				course = sc.nextLine();
