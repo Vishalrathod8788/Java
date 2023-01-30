@@ -63,31 +63,38 @@ public class MultiLeval
 		}
 		void Display()
 		{
-			System.out.print("Student Name : " + name);
-			System.out.print("Student Burth Date : " + bdate);		
-			if(gender == true)
+			for(int i=1; i<=x; i++)
 			{
-				System.out.println("Male");
+				System.out.println("Student Name : " + name);
+				System.out.println("Student Burth Date : " + bdate);		
+				if(gender == true)
+				{
+					System.out.println("Student Gender Male");
+				}
+				else
+				{
+					System.out.println("Student Gender Female");
+				}
+				System.out.println("Student Course : " + course);
+				System.out.println("Student Semester : " + sem);
+				System.out.println("Student Univercity : " + university);
+				System.out.println("Student Mark 1 : " + m1);
+				System.out.println("Student Mark 2 : " + m2);
+				System.out.println("Student Mark 3 : " + m3);
+				if(avrg <= 70 && 79 >= avrg)
+				{
+					System.out.println(name + "Achive C Grade ");
+				}
+				else if(avrg <= 80 && 89 >= avrg)
+				{
+					System.out.println(name + "Achive B Grade ");
+				}
+				else if(avrg <= 90 && 100 >= avrg)
+				{
+					System.out.println(name + "Achive A Grade ");
+				}
+				System.out.println(name + "Avereges is "+ avrg);
 			}
-			else
-			{
-				System.out.println("Female");
-			}
-			System.out.print("Student Gender : " + gender);
-			
-			if(avrg <= 70 && 79 >= avrg)
-			{
-				System.out.println(name + "Achive C Grade ");
-			}
-			else if(avrg <= 80 && 89 >= avrg)
-			{
-				System.out.println(name + "Achive B Grade ");
-			}
-			else if(avrg <= 90 && 100 >= avrg)
-			{
-				System.out.println(name + "Achive A Grade ");
-			}
-			System.out.println(name + "Avereges is "+ avrg);
 		}
 	}
 	
