@@ -22,5 +22,4 @@ public class Static_variable_method
 		System.out.println(y);
 		System.out.println("Total"+ (x + y));
 	}
-
 }
