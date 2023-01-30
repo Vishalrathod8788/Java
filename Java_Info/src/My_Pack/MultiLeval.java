@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class MultiLeval 
 {
 	Scanner sc = new Scanner(System.in);
+	int x;
 	class person 
 	{
 		String name, bdate;
@@ -33,7 +34,7 @@ public class MultiLeval
 		void Display()
 		{
 			System.out.println("Enter Nuber Of Student : ");
-			int x = sc.nextInt();
+			x = sc.nextInt();
 			for(int i=1; i<=x; i++)
 			{
 				System.out.println("Enter Student Name : ");
@@ -76,6 +77,8 @@ public class MultiLeval
 	
 	public static void main(String[] args)
 	{
-		
+		MultiLeval m1 = new MultiLeval();
+		MultiLeval.Mark obj = m1.new Mark();
+		obj.Display();
 	}
 }
