@@ -24,7 +24,6 @@ public class OuterClass
 		OuterClass.inner B = A.new inner();
 		B.innerMain();
 	}
-
 }
 
 class X
