@@ -15,6 +15,8 @@ public class StringBuff {
 		System.out.println(str.isEmpty());
 		System.out.println(str.equals(name));
 		System.out.println(str.substring(3));
+		System.out.println(str.hashCode());
+		System.out.println(str.lastIndexOf(name, 2));
 	}
 
 }
