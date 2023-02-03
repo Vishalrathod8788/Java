@@ -42,7 +42,7 @@ public class VectorStud
 
 	@Override
 	public String toString() {
-		return "VectorStud [no=" + no + ", name=" + name + "]";
+		return " no = " + no + " name = " + name ;
 	}
 
 }

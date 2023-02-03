@@ -23,17 +23,21 @@ public class VectorsDemo {
 		v1.addElement(p1);
 		v1.addElement(p2);
 		
-		System.out.println("1"+v1.get(0));
-		System.out.println("2"+v1.get(1));
-		System.out.println("3"+v1.get(2));
-		System.out.println("4"+v1.get(3));
-		System.out.println("5"+v1.get(4));
-		System.out.println("6"+v1.get(5));
-		System.out.println("7"+v1.get(6));
-		System.out.println("8"+v1.get(7));
-		System.out.println("9"+v1.get(8));
-		System.out.println("10"+v1.get(9));
-//		System.out.println("11"+v1.get(10));
+		for(int i=0; i<v1.size(); i++)
+		{
+			System.out.println(i +" : "+v1.get(i));	
+		}
+//		System.out.println("1 : "+v1.get(0));
+//		System.out.println("2 : "+v1.get(1));
+//		System.out.println("3 : "+v1.get(2));
+//		System.out.println("4 : "+v1.get(3));
+//		System.out.println("5 : "+v1.get(4));
+//		System.out.println("6 : "+v1.get(5));
+//		System.out.println("7 : "+v1.get(6));
+//		System.out.println("8 : "+v1.get(7));
+//		System.out.println("9 : "+v1.get(8));
+//		System.out.println("10 : "+v1.get(9));
+
 	}
 
 }
