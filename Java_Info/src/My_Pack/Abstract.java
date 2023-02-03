@@ -1,5 +1,6 @@
 package My_Pack;
 
+
 abstract class A12
 {
 	abstract void name();

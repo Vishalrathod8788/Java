@@ -11,6 +11,12 @@ public class toString
 		this.name = name;
 	}
 
+	void name()
+	{
+		this.name = name;
+		this.no = no;
+		System.out.println("No " + no +"\nName " + name);
+	}
 	@Override
 	public String toString() {
 		return "toString [no=" + no + ", name=" + name + "]";

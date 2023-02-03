@@ -24,16 +24,17 @@ public class VectorsDemo {
 		v1.insertElementAt("Hello Friends", 3);
 		v1.removeElement("Hello Friends");
 		v1.size();
-		
+//		v1.clear();
+		System.out.println(v1.size());
 		
 		VectorStud p1 = new VectorStud(1, "VGR");
 		VectorStud p2 = new VectorStud(2, "Vishal");
 		v1.addElement(p1);
 		v1.addElement(p2);
-		v1.removeAllElements();
+//		v1.removeAllElements();
 		//System.out.println(v1);  //The output of this will be [ As many stores as there are in the list will come ]
-		
-		//System.out.println(v1.size());
+		v1.clone();
+//		
 		for(int i=0; i<v1.size(); i++)
 		{
 			System.out.println(i +" : "+v1.get(i));	 //The output of this will be print values one by one
