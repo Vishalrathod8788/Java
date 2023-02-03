@@ -10,24 +10,30 @@ public class VectorsDemo {
 		String str = "This String ";
 		v1.addElement(str);
 		
+		v1.addElement("VGR");
+		
+		
+		//below that is used wrapper class 
 		v1.addElement(new Integer(222));
 		v1.addElement(new Float (200.000000));
-		v1.addElement(new String("VGR"));
 		v1.addElement(new Double(12.2222222));
 		v1.addElement(new Character('A'));
 		v1.addElement(new Long(1212121));
 		v1.addElement(new Short((short)324));
 		
 		v1.insertElementAt("Hello Friends", 3);
+		v1.removeElement("Hello Friends");
+		v1.size();
+		
 		
 		VectorStud p1 = new VectorStud(1, "VGR");
 		VectorStud p2 = new VectorStud(2, "Vishal");
 		v1.addElement(p1);
 		v1.addElement(p2);
+		v1.removeAllElements();
+		//System.out.println(v1);  //The output of this will be [ As many stores as there are in the list will come ]
 		
-//		System.out.println(v1);  //The output of this will be [ As many stores as there are in the list will come ]
-		
-		
+		//System.out.println(v1.size());
 		for(int i=0; i<v1.size(); i++)
 		{
 			System.out.println(i +" : "+v1.get(i));	 //The output of this will be print values one by one
