@@ -12,7 +12,8 @@ public class runTIme_Polimorephisam extends Bike
 	
 	public static void main(String[] args) 
 	{
-
+		runTIme_Polimorephisam r1 = new runTIme_Polimorephisam();
+		r1.run();
 	}
 
 	@Override
