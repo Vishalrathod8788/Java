@@ -3,13 +3,11 @@ package My_Pack;
 abstract class Bike
 {
 	public abstract void run();
-
 }
 
 public class runTIme_Polimorephisam extends Bike
 {
 
-	
 	public static void main(String[] args) 
 	{
 		runTIme_Polimorephisam r1 = new runTIme_Polimorephisam();
@@ -18,8 +16,6 @@ public class runTIme_Polimorephisam extends Bike
 
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
-		System.out.println("Runn................");
+		System.out.println("Runn...");
 	}
-
 }
