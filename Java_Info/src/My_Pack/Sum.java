@@ -11,8 +11,8 @@ public class Sum
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Sum a = new Sum();
-		a.Sum(2, 3);
+		Sum obj = new Sum();
+		obj.Sum(2, 3);
 	}
 
 }
