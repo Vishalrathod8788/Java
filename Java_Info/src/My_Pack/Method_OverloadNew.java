@@ -19,7 +19,6 @@ public class Method_OverloadNew {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Method_OverloadNew m1 = new Method_OverloadNew();
 		m1.Method(2, 2.222222);
 		m1.Method(2.222222, 2);
