@@ -9,7 +9,7 @@ public class TryCatch  extends Thread
 			int a[] = new int[5];
 			for(int x=0; x<10; x++)
 			{
-				System.out.println(a[x]);
+				System.out.println(a[x] =+ x);
 			}
 		} 
 		catch (Exception e)
