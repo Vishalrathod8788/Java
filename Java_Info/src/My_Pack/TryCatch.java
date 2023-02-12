@@ -7,7 +7,7 @@ public class TryCatch  extends Thread
 		try 
 		{
 			int a[] = new int[5];
-			for(int x=0; x<10; x++)
+			for(int x=1; x<10; x++)
 			{
 				System.out.println(a[x] =+ x);
 			}
