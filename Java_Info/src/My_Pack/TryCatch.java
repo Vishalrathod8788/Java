@@ -14,7 +14,7 @@ public class TryCatch  extends Thread
 		} 
 		catch (Exception e)
 		{
-			System.out.println("Error....");
+			System.out.println("Exception Handling...");
 		}
 	}
 }
