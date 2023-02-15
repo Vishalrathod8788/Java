@@ -8,3 +8,4 @@ public class method
 		System.out.println("Hello...!");
 	}
 }
+
