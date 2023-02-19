@@ -16,10 +16,16 @@ public class geters
 	{
 		return name;
 	}
+	
+	public String setName()
+	{
+		return name = "VGR";
+	}
 	public static void main(String[] args) 
 	{
 		geters obj = new geters("Vishal", 0);
-		System.out.println(obj.name);
+		System.out.println(obj.getName());
+		System.out.println(obj.setName());
 	}
 
 }
