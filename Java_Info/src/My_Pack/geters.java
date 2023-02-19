@@ -18,7 +18,8 @@ public class geters
 	}
 	public static void main(String[] args) 
 	{
-		
+		geters obj = new geters("Vishal", 0);
+		System.out.println(obj.name);
 	}
 
 }
