@@ -28,9 +28,10 @@ public class geters
 	}
 	public static void main(String[] args) 
 	{
-		geters obj = new geters("Vishal", 0);
+		geters obj = new geters("Vishal", 8788);
 		System.out.println(obj.getName());
 		System.out.println(obj.setName());
+		System.out.println(obj.getage());
 	}
 
 }
