@@ -17,6 +17,11 @@ public class geters
 		return name;
 	}
 	
+	public int getage()
+	{
+		return age;
+	}
+	
 	public String setName()
 	{
 		return name = "VGR";
