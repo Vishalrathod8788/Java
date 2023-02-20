@@ -16,15 +16,20 @@ public class geters
 	{
 		return name;
 	}
+		
+	public String setName()
+	{
+		return name = "VGR";
+	}
 	
 	public int getage()
 	{
 		return age;
 	}
 	
-	public String setName()
+	public int setage()
 	{
-		return name = "VGR";
+		return age = 11;
 	}
 	public static void main(String[] args) 
 	{
