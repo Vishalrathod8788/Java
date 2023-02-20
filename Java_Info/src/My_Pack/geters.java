@@ -37,6 +37,7 @@ public class geters
 		System.out.println(obj.getName());
 		System.out.println(obj.setName());
 		System.out.println(obj.getage());
+		System.out.println(obj.setage());
 	}
 
 }
