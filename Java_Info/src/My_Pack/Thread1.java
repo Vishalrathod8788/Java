@@ -13,6 +13,6 @@ public class Thread1 extends Thread
 		// TODO Auto-generated method stub
 		Thread1 t = new Thread1();
 		t.start();
-		System.out.println("Main Thread...");
+		System.out.println("Thread...");
 	}
 }
