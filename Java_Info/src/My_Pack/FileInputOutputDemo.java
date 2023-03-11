@@ -21,7 +21,10 @@ public class FileInputOutputDemo
 		
 		FileInputStream fis = new  FileInputStream("/home/vishal/Desktop/fos.txt");
 		
-		fis.read();
+		int i = fis.read();
+		
+		
+		System.out.println((char)i);
 	}
 
 }
