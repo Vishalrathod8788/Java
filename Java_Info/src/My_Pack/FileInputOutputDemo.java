@@ -9,7 +9,7 @@ public class FileInputOutputDemo
 
 	public static void main(String[] args) throws Exception 
 	{
-		FileOutputStream fos = new FileOutputStream("/home/vishal/Desktop/fos.txt", true);
+		/*FileOutputStream fos = new FileOutputStream("/home/vishal/Desktop/fos.txt", true);
 		
 		String Data = "Hello....!";
 		
@@ -17,14 +17,16 @@ public class FileInputOutputDemo
 		
 		fos.close();
 		
-		System.out.println("Data has been written to File 'fos.txt'");
+		System.out.println("Data has been written to File 'fos.txt'");*/
 		
 		FileInputStream fis = new  FileInputStream("/home/vishal/Desktop/fos.txt");
 		
-		int i = fis.read();
+		int i=0;
 		
-		
-		System.out.println((char)i);
+		while((i = fis.read()) != -1)
+		{
+			System.out.print((char)i);
+		}
 	}
 
 }
