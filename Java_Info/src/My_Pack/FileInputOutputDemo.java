@@ -18,6 +18,10 @@ public class FileInputOutputDemo
 		fos.close();
 		
 		System.out.println("Data has been written to File 'fos.txt'");
+		
+		FileInputStream fis = new  FileInputStream("/home/vishal/Desktop/fos.txt");
+		
+		fis.read();
 	}
 
 }
