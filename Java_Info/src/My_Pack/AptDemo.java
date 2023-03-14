@@ -14,4 +14,9 @@ public class AptDemo extends Applet
 	{
 		
 	}
+	
+	public void stop()
+	{
+		
+	}
 }
