@@ -17,7 +17,7 @@ public class AptDemo extends Applet
 	
 	public void stop()
 	{
-		
+		System.out.println("Stop...");
 	}
 	
 	public void distroy()
