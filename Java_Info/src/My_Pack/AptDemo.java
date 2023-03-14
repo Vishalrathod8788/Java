@@ -10,4 +10,8 @@ public class AptDemo extends Applet
 		
 	}
 	
+	public void start() 
+	{
+		
+	}
 }
