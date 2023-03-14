@@ -12,7 +12,7 @@ public class AptDemo extends Applet
 	
 	public void start() 
 	{
-		
+		System.out.println("Start...");
 	}
 	
 	public void stop()
