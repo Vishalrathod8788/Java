@@ -1,5 +1,13 @@
 package My_Pack;
 
-public class AptDemo {
+import java.applet.*;
+import java.awt.*;
 
+public class AptDemo extends Applet
+{
+	public void init()
+	{
+		
+	}
+	
 }
