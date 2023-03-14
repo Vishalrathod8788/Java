@@ -19,4 +19,9 @@ public class AptDemo extends Applet
 	{
 		
 	}
+	
+	public void distroy()
+	{
+		
+	}
 }
