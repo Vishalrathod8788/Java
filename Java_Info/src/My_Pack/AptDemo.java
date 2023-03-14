@@ -22,6 +22,6 @@ public class AptDemo extends Applet
 	
 	public void distroy()
 	{
-		
+		System.out.println("Distroy...");
 	}
 }
