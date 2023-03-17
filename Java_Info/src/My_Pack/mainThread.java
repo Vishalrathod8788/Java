@@ -16,6 +16,7 @@ public class mainThread {
 		System.out.println(t.MIN_PRIORITY);
 		t.setPriority(111);
 		System.out.println(t.getPriority());
+		System.out.println(t.getId());
 		
 	}
 
