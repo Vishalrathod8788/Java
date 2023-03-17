@@ -17,7 +17,7 @@ public class mainThread {
 		t.setPriority(111);
 		System.out.println(t.getPriority());
 		System.out.println(t.getId());
-		t.getStackTrace();
+		System.out.println(	t.getStackTrace());
 		System.out.println(t.isAlive());
 		
 		System.out.println();
