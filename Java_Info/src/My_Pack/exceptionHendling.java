@@ -15,5 +15,6 @@ public class exceptionHendling {
 //			er.printStackTrace();
 			System.out.println("Array Index Out of Bound Exception");
 		}
+		System.out.println("Program End...");
 	}
 }
