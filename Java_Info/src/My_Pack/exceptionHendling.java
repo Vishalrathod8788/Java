@@ -12,7 +12,7 @@ public class exceptionHendling {
 		} 
 		catch (ArrayIndexOutOfBoundsException er) 
 		{
-//			er.printStackTrace();
+			er.printStackTrace();	// This is Programing Error...
 			System.out.println("Array Index Out of Bound Exception");
 		}
 		System.out.println("Program End...");
