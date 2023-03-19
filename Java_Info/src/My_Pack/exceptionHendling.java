@@ -6,9 +6,11 @@ public class exceptionHendling {
 	{
 		int[] ex = new int[5];
 		System.out.println("Program Start...");
+		String name[] = {""};
 		
 		try
 		{
+			System.out.println(name[1]);
 			int i = 10/0;
 			ex[7] = 10;
 		} 
