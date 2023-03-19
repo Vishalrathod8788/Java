@@ -6,8 +6,11 @@ public class exceptionHendling {
 	{
 		int[] ex = new int[5];
 		System.out.println("Program Start...");
+		int i = 10/0;
+		
 		try
 		{
+			
 			ex[7] = 10;
 		} 
 		catch (ArrayIndexOutOfBoundsException er) 
