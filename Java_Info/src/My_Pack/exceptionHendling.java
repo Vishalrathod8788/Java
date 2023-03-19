@@ -10,7 +10,7 @@ public class exceptionHendling {
 		
 		try
 		{
-			System.out.println(name[1]);
+			System.out.println(name[0]);
 			int i = 10/0;
 			ex[7] = 10;
 		} 
