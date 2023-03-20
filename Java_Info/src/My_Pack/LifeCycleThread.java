@@ -1,9 +1,17 @@
 package My_Pack;
 
-public class LifeCycleThread {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class LifeCycleThread implements Runnable 
+{
+
+	@Override
+	public void run() 
+	{
+		
+	}
+
+	public static void main(String[] args) 
+	{
 
 	}
 
