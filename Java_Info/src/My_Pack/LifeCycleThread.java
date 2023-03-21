@@ -21,11 +21,13 @@ public class LifeCycleThread implements Runnable
 
 	public static void main(String[] args) 
 	{
-		try {
+		try 
+		{
 			t1.start();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		}
+		catch (Exception e)
+		{
+			System.out.println("Error...");
 		}
 	}
 
