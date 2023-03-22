@@ -21,14 +21,7 @@ public class LifeCycleThread implements Runnable
 
 	public static void main(String[] args) 
 	{
-		try 
-		{
-			t1.start();
-		}
-		catch (Exception e)
-		{
-			System.out.println("Error...");
-		}
+		
 	}
 
 }
