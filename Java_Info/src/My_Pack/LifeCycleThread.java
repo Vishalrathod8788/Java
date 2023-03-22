@@ -9,14 +9,7 @@ public class LifeCycleThread implements Runnable
 	@Override
 	public void run() 
 	{
-		try 
-		{
-			t1.sleep(200);
-		}
-		catch (InterruptedException e) 
-		{
-			e.printStackTrace();
-		}
+		
 	}
 
 	public static void main(String[] args) 
