@@ -1,5 +1,9 @@
 package My_Pack;
 
-public class MyFrame {
+import javax.swing.*;
+import java.awt.*;
+
+public class MyFrame 
+{
 
 }
