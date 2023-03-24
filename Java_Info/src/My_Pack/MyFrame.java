@@ -6,7 +6,6 @@ import java.awt.*;
 public class MyFrame extends JFrame
 {
 	public MyFrame() {
-        // Set the layout manager for the content pane
         getContentPane().setLayout(new GridBagLayout());
         
         GridBagConstraints textConstraints = new GridBagConstraints();
