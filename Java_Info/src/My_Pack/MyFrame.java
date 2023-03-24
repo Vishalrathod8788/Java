@@ -16,7 +16,6 @@ public class MyFrame extends JFrame
         textConstraints.weightx = 1.0;
         textConstraints.fill = GridBagConstraints.HORIZONTAL;
         
-        // Create the text field and add it to the content pane
         JTextField textField = new JTextField();
         getContentPane().add(textField, textConstraints);
         
