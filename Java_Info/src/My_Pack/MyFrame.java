@@ -36,7 +36,6 @@ public class MyFrame extends JFrame
         buttonConstraints.gridy = 2;
         buttonConstraints.anchor = GridBagConstraints.CENTER;
         
-        // Create the button and add it to the content pane
         JButton button = new JButton("Submit");
         getContentPane().add(button, buttonConstraints);
         
