@@ -9,7 +9,6 @@ public class MyFrame extends JFrame
         // Set the layout manager for the content pane
         getContentPane().setLayout(new GridBagLayout());
         
-        // Create a constraints object for the text field
         GridBagConstraints textConstraints = new GridBagConstraints();
         textConstraints.gridx = 0;
         textConstraints.gridy = 0;
