@@ -26,7 +26,6 @@ public class MyFrame extends JFrame
         labelConstraints.gridy = 1;
         labelConstraints.anchor = GridBagConstraints.WEST;
         
-        // Create the label and add it to the content pane
         JLabel label = new JLabel("Enter your name:");
         getContentPane().add(label, labelConstraints);
         
