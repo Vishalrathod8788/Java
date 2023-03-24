@@ -30,7 +30,6 @@ public class MyFrame extends JFrame
         JLabel label = new JLabel("Enter your name:");
         getContentPane().add(label, labelConstraints);
         
-        // Create a constraints object for the button
         GridBagConstraints buttonConstraints = new GridBagConstraints();
         buttonConstraints.gridx = 0;
         buttonConstraints.gridy = 2;
