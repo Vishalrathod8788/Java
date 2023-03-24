@@ -40,7 +40,6 @@ public class MyFrame extends JFrame
         JButton button = new JButton("Submit");
         getContentPane().add(button, buttonConstraints);
         
-        // Set the size of the frame and make it visible
         setSize(300, 200);
         setVisible(true);
     }
