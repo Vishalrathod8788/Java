@@ -20,7 +20,6 @@ public class MyFrame extends JFrame
         JTextField textField = new JTextField();
         getContentPane().add(textField, textConstraints);
         
-        // Create a constraints object for the label
         GridBagConstraints labelConstraints = new GridBagConstraints();
         labelConstraints.gridx = 0;
         labelConstraints.gridy = 1;
