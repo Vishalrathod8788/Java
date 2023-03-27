@@ -28,7 +28,9 @@ public class exceptionHendling {
 			er.printStackTrace();	// This is Programing Error...
 			System.out.println("Array Index Out of Bound Exception");
 		}
-		finally {
+		finally
+		{
+			
 			System.out.println("Finayy KeyWord...");
 		}
 		System.out.println("Program End...");
