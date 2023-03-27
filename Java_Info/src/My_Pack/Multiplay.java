@@ -1,9 +1,7 @@
 package My_Pack;
 
 public class Multiplay
-{
-	//int a , b;
-	
+{	
 	public void Multiplay(int a, int b)
 	{
 		Sum obj = new Sum();
