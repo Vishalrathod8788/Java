@@ -97,7 +97,6 @@ public class MultiLeval
 			}
 		}
 	}
-	
 	public static void main(String[] args)
 	{
 		MultiLeval m1 = new MultiLeval();
