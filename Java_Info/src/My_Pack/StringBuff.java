@@ -1,9 +1,9 @@
 package My_Pack;
 
-public class StringBuff {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class StringBuff 
+{
+	public static void main(String[] args) 
+	{
 		String name = "VGR";
 		StringBuffer str = new StringBuffer("Hyyy");
 		System.out.println(str.charAt(3));
@@ -18,5 +18,4 @@ public class StringBuff {
 		System.out.println(str.hashCode());
 		System.out.println(str.lastIndexOf(name, 2));
 	}
-
 }
