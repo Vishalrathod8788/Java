@@ -12,6 +12,7 @@ public class Str_Buff_Class {
 		System.out.println(str.isEmpty());
 		System.out.println(str.equals(name));
 		System.out.println(str.reverse());
+		
 	}
 
 }
