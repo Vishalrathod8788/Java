@@ -8,7 +8,14 @@ public class FileHandlingDemo {
 	{
 		FileInputStream in = null;
 		FileOutputStream out = null;
+		try
+		{
+			
+		}
+		catch (Exception e) 
+		{
 		
+		}
 	}
 
 }
