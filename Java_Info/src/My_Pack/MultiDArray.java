@@ -1,18 +1,17 @@
 package My_Pack;
 
-public class MultiDArray {
-
+public class MultiDArray 
+{
 	public static void main(String[] args) 
 	{
-		int number[][] = {{10,20,30,40,50},{60,70,80,90,100}};
+		int numbers[][] = {{1,2,3,4,5},{6,7,8,9,10}};
 		
-		for(int i=0; i<=number.length; i++)
+		for(int i=0; i<=numbers.length; i++)
 		{
-			for(int j=0; j<=number.length; j++)
+			for(int j=0; j<=numbers.length; j++)
 			{
-				System.out.println(number[i][j]);
+				System.out.println(numbers[i][j]);
 			}
 		}
 	}
-
 }
