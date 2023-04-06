@@ -12,10 +12,19 @@ public class FileHandlingDemo {
 		{
 			in = new FileInputStream("input.txt");
 			out = new FileOutputStream("Output.txt");
+			int c;
+			while((c = in.read()) != -1)
+			{
+				out.write(c);
+			}	
 		}
 		catch (Exception e) 
 		{
 		
+		}
+		finally
+		{
+			
 		}
 	}
 
