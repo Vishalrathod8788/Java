@@ -10,7 +10,7 @@ public class MultiDArray {
 		{
 			for(int j=0; j<=number.length; j++)
 			{
-				
+				System.out.println(number[i][j]);
 			}
 		}
 	}
