@@ -10,7 +10,8 @@ public class FileHandlingDemo {
 		FileOutputStream out = null;
 		try
 		{
-			
+			in = new FileInputStream("input.txt");
+			out = new FileOutputStream("Output.txt");
 		}
 		catch (Exception e) 
 		{
