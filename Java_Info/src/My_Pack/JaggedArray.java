@@ -16,6 +16,9 @@ public class JaggedArray
 				arr[i][j] = count++;				
 			}
 		}
-		
+		for(int i=0; i<=arr.length; i++)
+		{
+			
+		}
 	}
 }
