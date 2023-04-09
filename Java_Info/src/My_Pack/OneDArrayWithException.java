@@ -12,10 +12,7 @@ public class OneDArrayWithException extends Thread
 				System.out.println(num[i]);
 				t1.sleep(1000);
 			}
-		catch (Exception e) 
-		{
-			System.out.println(e.toString());
-		}
+
 		
 	}
 
