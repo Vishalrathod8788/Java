@@ -21,8 +21,7 @@ public class Abstract extends A12
 		a.show();
 		a.name();
 	}
-
-	@Override
+	
 	void name() 
 	{
 		System.out.println("VGR");
