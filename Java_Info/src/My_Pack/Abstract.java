@@ -13,12 +13,6 @@ abstract class A12
 public class Abstract extends A12
 {
 
-	@Override
-	void name() 
-	{
-		// TODO Auto-generated method stub
-		System.out.println("VGR");
-	}
 	
 	public static void main(String[] args) 
 	{
@@ -26,6 +20,12 @@ public class Abstract extends A12
 		Abstract a = new Abstract();
 		a.show();
 		a.name();
+	}
+
+	@Override
+	void name() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
