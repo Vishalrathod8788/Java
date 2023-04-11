@@ -10,7 +10,7 @@ public class MultiDArray
 		{
 			for(int j=0; j<=numbers.length; j++)
 			{
-				System.out.println(numbers[i][j]);
+				System.out.println("No 1 " + numbers[i][j]);
 			}
 		}
 	}
