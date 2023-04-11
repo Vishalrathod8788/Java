@@ -23,9 +23,9 @@ public class Abstract extends A12
 	}
 
 	@Override
-	void name() {
-		// TODO Auto-generated method stub
-		
+	void name() 
+	{
+		System.out.println("VGR");
 	}
 
 }
