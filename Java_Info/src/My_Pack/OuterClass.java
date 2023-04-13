@@ -29,6 +29,6 @@ class X
 {
 	static void nest()
 	{
-		System.out.println("nest Class Can be access X Variable " + x); This Variable not Access
+//		System.out.println("nest Class Can be access X Variable " + x); This Variable not Access
 	}
 }
