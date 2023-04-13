@@ -25,7 +25,6 @@ public class OuterClass
 		B.innerMain();
 	}
 }
-
 class X
 {
 	static void nest()
