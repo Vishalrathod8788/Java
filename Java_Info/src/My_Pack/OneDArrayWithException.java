@@ -14,7 +14,7 @@ public class OneDArrayWithException extends Thread
 					
 				}	
 		} catch (Exception e) {
-			// TODO: handle exception
+			
 		}
 		
 	}
