@@ -5,11 +5,12 @@ public class geters
 
 	private String name;
 	private int age;
-	
+	private String city;
 	public geters(String name, int age)
 	{
 		this.name = name;
 		this.age = age;
+
 	}
 	
 	public String getName()
