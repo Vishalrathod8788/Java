@@ -36,7 +36,10 @@ public class geters
 	{
 		return age = 11;
 	}
-	
+	public String setCity()
+	{
+		return city = "Rajkot";
+	}
 	public static void main(String[] args) 
 	{
 		geters obj = new geters("Vishal", 8788, "Jamnagar");
