@@ -48,6 +48,7 @@ public class geters
 		System.out.println(obj.getage());
 		System.out.println(obj.setage());
 		System.out.println(obj.getCity());
+		System.out.println(obj.setCity());
 	}
 
 }
