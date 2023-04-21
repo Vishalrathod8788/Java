@@ -36,13 +36,15 @@ public class geters
 	{
 		return age = 11;
 	}
+	
 	public static void main(String[] args) 
 	{
-		geters obj = new geters("Vishal", 8788);
+		geters obj = new geters("Vishal", 8788, "Jamnagar");
 		System.out.println(obj.getName());
 		System.out.println(obj.setName());
 		System.out.println(obj.getage());
 		System.out.println(obj.setage());
+		System.out.println(obj.getCity());
 	}
 
 }
