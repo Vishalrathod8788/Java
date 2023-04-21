@@ -25,7 +25,7 @@ public class geters
 	
 	public String getCity()
 	{
-		
+		return city;
 	}
 	public int getage()
 	{
