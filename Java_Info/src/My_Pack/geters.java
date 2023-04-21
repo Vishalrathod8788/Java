@@ -10,7 +10,7 @@ public class geters
 	{
 		this.name = name;
 		this.age = age;
-
+		this.city = city;
 	}
 	
 	public String getName()
