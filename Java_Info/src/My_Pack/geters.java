@@ -23,6 +23,10 @@ public class geters
 		return name = "VGR";
 	}
 	
+	public String getCity()
+	{
+		
+	}
 	public int getage()
 	{
 		return age;
