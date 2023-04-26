@@ -16,6 +16,7 @@ public class SwingDemo
 		JTextField tf = new JTextField(20);
 		f.add(lb);
 		f.add(tf);
+		f.setSize(400,500);
 		
 	}
 
