@@ -51,7 +51,6 @@ public class geters
 		System.out.println(obj.setCity());
 		
 	}
-
 }
 
 
