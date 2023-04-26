@@ -1,15 +1,21 @@
 package My_Pack;
 
+import java.awt.FlowLayout;
+import java.awt.GridLayout;
+
 import javax.swing.*;
 
-public class SwingDemo extends JFrame
+public class SwingDemo
 {
 
 	
 	public static void main(String[] args) 
 	{
-		JLabel lb = new JLabel();
-		JTextField tf;
+		JFrame f = new JFrame();
+		JLabel lb = new JLabel("Enter Your Name");
+		JTextField tf = new JTextField(20);
+		f.add(lb);
+	
 	}
 
 }
