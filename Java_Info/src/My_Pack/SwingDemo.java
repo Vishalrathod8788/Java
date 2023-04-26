@@ -15,7 +15,8 @@ public class SwingDemo
 		JLabel lb = new JLabel("Enter Your Name");
 		JTextField tf = new JTextField(20);
 		f.add(lb);
-	
+		f.add(tf);
+		
 	}
 
 }
