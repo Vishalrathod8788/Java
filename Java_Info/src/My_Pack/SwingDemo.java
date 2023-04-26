@@ -17,6 +17,7 @@ public class SwingDemo
 		f.add(lb);
 		f.add(tf);
 		f.setSize(400,500);
+		f.setLayout(new FlowLayout());
 		
 	}
 
